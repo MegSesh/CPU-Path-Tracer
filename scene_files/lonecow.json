@@ -1,0 +1,94 @@
+{
+  "frames" :[
+    {
+    "frameNumber" : 0,
+    "scene" : {
+      "camera" : {
+        "target" : [0, 2.5, 0],
+        "eye" : [0, 5.5, -30],
+        "worldUp" : [0, 1, 0],
+        "fov" : 19.5,
+        "width" : 400,
+        "height": 400,
+        "lensRadius": 0.0,
+        "focalDistance": 30.0
+      },
+
+
+      "primitives" : [
+        {
+          "shape" : "SquarePlane",
+          "name" : "Floor",
+          "material" : "matteWhite",
+          "transform" : {
+            "translate" : [0, 0.75, -0.75],
+            "rotate" : [-100, 0, 0],
+            "scale" : [15, 15, 1]
+          }
+        },
+
+        {
+          "shape": "Mesh",
+          "name": "cow",
+          "filename": "Cow.obj",
+          "material": "matteRed",
+          "transform": {
+            "translate": [0.25, 0, -4],
+            "rotate" : [-10, 135, 0],
+            "scale": [0.4, 0.4, 0.4]
+          }
+        }
+
+
+
+      ],
+
+
+      "lights" : [
+
+        {
+          "shape" : "Sphere",
+          "name" : "Yellow Directional Light",
+          "type" : "DirectionalLight",
+          "lightColor" : [12,12,4],
+          "intensity" : 0.25,
+          "transform" : {
+            "translate" : [0,0,0],
+            "rotate" : [0,0,0],
+            "scale" : [1, 1, 1]
+          },
+          "direction" : [-1, -1, 2]
+        }
+
+
+
+      ],
+
+
+      "materials" : [
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteWhite",
+            "Kd" : [0.85, 0.81, 0.78],
+          "sigma": 0
+        },
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteRed",
+          "Kd" : [0.63, 0.065, 0.05],
+          "sigma": 0
+        },
+        {
+          "type" : "MatteMaterial",
+          "name" : "matteGreen",
+          "Kd" : [0.14, 0.45, 0.091],
+          "sigma": 0
+        }
+
+
+
+      ]
+    }
+  }
+]
+}

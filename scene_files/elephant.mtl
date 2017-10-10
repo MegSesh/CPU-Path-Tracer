@@ -1,0 +1,32 @@
+newmtl elephant:Ele_Tuskh
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.39 0.39 0.39
+Ns 40.00
+newmtl elephant:ElepEYE
+illum 4
+Kd 0.01 0.01 0.01
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.90 0.90 0.90
+Ns 70.00
+newmtl elephant:ElphSkin
+illum 4
+Kd 0.00 0.00 0.00
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.50
+Ks 0.37 0.37 0.37
+Ns 48.00
+newmtl elephant:wire_196196196
+illum 4
+Kd 0.77 0.77 0.77
+Ka 0.00 0.00 0.00
+Tf 1.00 1.00 1.00
+Ni 1.00
+Ks 0.35 0.35 0.35
+Ns 32.00

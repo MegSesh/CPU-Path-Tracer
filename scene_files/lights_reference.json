@@ -1,0 +1,141 @@
+// DIFFUSE AREA LIGHTS
+
+        {
+          "shape" : "SquarePlane",
+          "name" : "Light Source Yellow",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [17,12,4],
+          "intensity" : 1,
+          "transform" : {
+            "translate" : [2,7.45,0],
+            "rotate" : [90,0,0],
+            "scale" : [3, 3, 1]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        }
+
+
+        {
+          "shape" : "SquarePlane",
+          "name" : "Light Source Blue",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [4,12,17],
+          "intensity" : 1,
+          "transform" : {
+            "translate" : [-2,7.45,0],
+            "rotate" : [90,0,0],
+            "scale" : [3, 3, 1]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        }
+
+
+
+        {
+          "shape" : "SquarePlane",
+          "name" : "Light Source White Top",
+          "type" : "DiffuseAreaLight",
+          "lightColor" : [1,1,1],
+          "intensity" : 2,
+          "transform" : {
+            "translate" : [0, 7.45 , 0],
+            "rotate" : [90,0,0],
+            "scale" : [8, 5, 1]
+          },
+          "isDelta" : false,
+          "twoSided" : true
+        }
+
+
+// POINT LIGHTS
+
+//DONT PUT POINT LIGHTS NEAR ANY OBJECTS IN SCENE. CAUSES FIREFLIES
+//doesn't matter what the scale is. technically has no shape and pdf is 0
+
+        {
+          "shape" : "Sphere",
+          "name" : "Yellow Point Light",
+          "type" : "PointLight",
+          "lightColor" : [17,12,4],
+          "intensity" : 5,
+          "transform" : {
+            "translate" : [0,5,0],
+            "rotate" : [0,0,0],
+            "scale" : [1, 1, 1]
+          }
+        }
+
+
+// SPOT LIGHTS
+
+// really bump up intensity
+// only have rotation here since it's a cone 
+
+        {
+          "shape" : "Sphere",
+          "name" : "Yellow Spot Light",
+          "type" : "SpotLight",
+          "lightColor" : [17,12,4],
+          "intensity" : 15,
+          "transform" : {
+            "translate" : [0,5.45,0],
+            "rotate" : [90,0,0],
+            "scale" : [1, 1, 1]
+          },
+          "totalWidth" : 30,
+          "fallOffStart" : 22.5
+        }
+
+
+
+// DIRECTIONAL (DISTANT) LIGHTS
+
+// keep intensity low 
+// maybe change light color
+// do NOT have a ceiling
+// I THINK none of the transformations do anything, since it's infinite light
+
+        {
+          "shape" : "Sphere",
+          "name" : "Yellow Directional Light",
+          "type" : "DirectionalLight",
+          "lightColor" : [17,12,4],
+          "intensity" : 1,
+          "transform" : {
+            "translate" : [0,10,-5],
+            "rotate" : [45,0,0],
+            "scale" : [3, 3, 0.1]
+          },
+          "direction" : [0, -1, 0]
+        }
+
+        {
+          "shape" : "Sphere",
+          "name" : "Yellow Directional Light",
+          "type" : "DirectionalLight",
+          "lightColor" : [17,12,4],
+          "intensity" : 1,
+          "transform" : {
+            "translate" : [0,7.45,-4],
+            "rotate" : [90,0,0],
+            "scale" : [3, 3, 0.1]
+          },
+          "direction" : [0, -1, 0]
+        }
+
+
+        {
+          "shape" : "Sphere",
+          "name" : "Yellow Directional Light",
+          "type" : "DirectionalLight",
+          "lightColor" : [17,12,4],
+          "intensity" : 1,
+          "transform" : {
+            "translate" : [0,7.45,0],
+            "rotate" : [90,0,0],
+            "scale" : [0.001, 0.001, 0.001]
+          },
+          "direction" : [0, -1, 0]
+        }
