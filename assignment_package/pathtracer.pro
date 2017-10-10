@@ -23,6 +23,11 @@ win32 {
 }
 
 macx {
+    # Steps to get this to compile after installing Xcode 7
+    # Add the line below (or the macosx10.11)
+    # I added the macos 10.10 sdk into Xcode 7's developer sdk folder
+    # I changed the Command Line Tool option in Xcode 6 and 7 (Preferences --> Locations --> Command Line Tool) from blank to Xcode 7.2
+    QMAKE_MAC_SDK = macosx10.10
     INCLUDEPATH += /usr/local/include
 }
 
