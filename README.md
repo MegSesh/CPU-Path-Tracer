@@ -6,7 +6,7 @@ Monte Carlo Path Tracer
 Name: Meghana Seshadri 
 
 ![](./renders/M_8samp_15sampbottom_25000photons_19404022render.png) 
-###### 512x512 pixels, 100 per pixel Recursion, depth: 5, Render time: 4 hours Photon mapping (25000 photons)
+###### 512x512 pixels, 100 per pixel Recursion, depth: 5, Render time: 4 hours Photon mapping (25000 photons), "M" made with microfacet materials
 
 ## Project Overview 
 
