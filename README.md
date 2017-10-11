@@ -6,6 +6,7 @@ Monte Carlo Path Tracer
 Name: Meghana Seshadri 
 
 ![](./renders/M_8samp_15sampbottom_25000photons_19404022render.png) 
+###### 512x512 pixels, 100 per pixel Recursion, depth: 5, Render time: 4 hours Photon mapping (25000 photons)
 
 ## Project Overview 
 
@@ -18,11 +19,11 @@ In a scene, with a light source(s) and objects, direct illumination is when ligh
 
 ### Operating Instructions
 
-- Download the code, open in QT Creator, build, and run. A GUI should appear like the one below:
+Download the code, open the .pro file (under assignment_package) in QT Creator, build, and run. A GUI should appear like the one below:
 
 ![](./renders/gui_interface.png) 
 
-Functionality includes the following: 
+GUI functionality includes the following: 
 - `File -> Load Scene`: This will open a file browser where you can locate the .json scene file that you wish to render. Look at the scene_files folder for example scene files. 
 - `File -> Render Scene`: This will render the scene displayed in the viewer according to all the settings on the GUI.
 - `Samples Count`: This is the square root of the samples you wish to render. So putting in "10" will be 100 samples.
@@ -162,8 +163,6 @@ After you compute the direct lighting and indirect lighting terms, compare the m
 
 
 ### Week 6: Acceleration Structures 
-
-**Overview**
 
 Thus far, we have been rendering scenes with relatively little geometry. However, if we want to be able to produce more interesting images, we'll need to be able to render scenes with large numbers of polygons, e.g. triangle meshes, without taking forever. To that end, we will implement a Bounding Volume Hierarchy to contain all Primitives in the scene so that we can perform ray-object intersection more efficiently.
 
