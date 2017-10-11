@@ -94,8 +94,8 @@ Implemented functions in order to generate sample points on the surfaces of obje
 Implemented functions to generate random ray samples within a hemisphere to compute the lighting a surface intersection receives. Since this is a naive implementation, the images produced will be rather grainy in appearance, but ray sampling functions implemented in future weeks combated this. 
 
 
-The Light Transport Equation
---------------
+#### The Light Transport Equation
+
 #### L<sub>o</sub>(p, &#969;<sub>o</sub>) = L<sub>e</sub>(p, &#969;<sub>o</sub>) + &#8747;<sub><sub>S</sub></sub> f(p, &#969;<sub>o</sub>, &#969;<sub>i</sub>) L<sub>i</sub>(p, &#969;<sub>i</sub>) V(p', p) |dot(&#969;<sub>i</sub>, N)| _d_&#969;<sub>i</sub>
 
 * __L<sub>o</sub>__ is the light that exits point _p_ along ray &#969;<sub>o</sub>.
