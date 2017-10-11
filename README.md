@@ -137,7 +137,7 @@ Implemented:
 - A set of BxDF classes used to represent glossy surfaces using microfacet distribution models
 
 
-### Week 5: Global Illumination 
+### Week 5: Global Illumination [To be edited]
 
 This week I rewrote FullLightingIntegrator::Li so that it incorporated global illumination. This entailed changing the function to be an interative implementation versus a recursive one in order to more easily track certain pieces of information, such as the cumulative throughput of ray paths and whether or not the ray just bounced off a specular surface. The throughput determines when the ray path terminates via the Russian Roulette heuristic. 
 
