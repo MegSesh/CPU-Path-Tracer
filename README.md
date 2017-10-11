@@ -147,7 +147,7 @@ Implemented:
 
 ----------------------------------------------------------------------------------------------------------------
 
-### Week 5: Global Illumination [To be edited]
+### Week 5: Global Illumination
 
 This week I rewrote FullLightingIntegrator::Li so that it incorporated global illumination. 
 
@@ -155,7 +155,7 @@ This entailed changing the function to be an interative implementation versus a 
 
 ----------------------------------------------------------------------------------------------------------------
 
-### Week 6: Acceleration Structures [To be edited]
+### Week 6: Acceleration Structures
 
 Implemented 
 
