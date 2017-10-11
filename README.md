@@ -5,7 +5,7 @@ Monte Carlo Path Tracer
 
 Name: Meghana Seshadri 
 
-< Insert an epic render right here> 
+![](./renders/M_8samp_15sampbottom_25000photons_19404022render.png) 
 
 ## Project Overview 
 
@@ -18,7 +18,7 @@ In a scene, with a light source(s) and objects, direct illumination is when ligh
 
 ### Operating Instructions
 
-- Download the code in QT Creator, build, and run. A GUI should appear like the one below:
+- Download the code, open in QT Creator, build, and run. A GUI should appear like the one below:
 
 ![](./renders/gui_interface.png) 
 
