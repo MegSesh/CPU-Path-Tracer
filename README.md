@@ -5,8 +5,13 @@ Monte Carlo Path Tracer
 
 Name: Meghana Seshadri 
 
+Below are the same scene files, one rendered using Photon Mapping, the other with the Full Lighting Integrator
+
 ![](./renders/M_8samp_15sampbottom_25000photons_19404022render.png) 
-###### 512x512 pixels, 100 per pixel Recursion, depth: 5, Render time: 4 hours Photon mapping (25000 photons), "M" made with microfacet materials
+###### 512x512 pixels, 100 samples per pixel, Recursion depth: 5, Render time: 4 hours Photon mapping (25000 photons), "M" made with microfacet materials
+
+![](./renders/m_1.png) 
+###### 512x512 pixels, 100 samples per pixel Recursion depth: 5, Render: Full Lighting Integrator, "M" made with microfacet materials
 
 ## Project Overview 
 
