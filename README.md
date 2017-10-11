@@ -77,7 +77,7 @@ Recursion depth: 5
 Render time: 3 hours
 Photon Mapping (25000 photons)
 
-![](./renders/potentials/photonmapsubmission/cornel_8samp_25000photons.png) 
+![](./renders/potentials/photonmapsubmission/cornel_8samp_25000photonscopy.png) 
 
 3. Cornell Box 2 Lights
 
