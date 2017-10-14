@@ -58,7 +58,7 @@ The following features were implemented:
 - and more!
 
 
-## Renders [More to come soon!]
+## Renders
 1. M 
 
 100 per pixel
@@ -69,7 +69,18 @@ Photon mapping (25000 photons)
 
 ![](./renders/M_8samp_15sampbottom_25000photons_19404022render.png) 
 
-2. Cornell Box 
+
+2. Microfacet Transmissive Cubes 
+
+![](./renders/potentials/competition/mtbox_15_8_v2_final.png) 
+
+
+3. Microfacet Transmissive Spheres 
+
+![](./renders/potentials/competition/circles_final.png) 
+
+
+4. Cornell Box 
 
 64 samples per pixel
 Recursion depth: 5
@@ -77,9 +88,10 @@ Recursion depth: 5
 Render time: 3 hours
 Photon Mapping (25000 photons)
 
-![](./renders/potentials/photonmapsubmission/cornel_8samp_25000photonscopy.png) 
+![](./renders/potentials/photonmapsubmission/cornel_8samp_25000photonscopy.png)
 
-3. Cornell Box 2 Lights
+
+5. Cornell Box 2 Lights
 
 25 samples per pixel
 Recursion depth: 5
@@ -89,6 +101,10 @@ Photon mapping (100000 photons)
 
 ![](./renders/potentials/photonmapsubmission/cornel2lights_5samp_100000photons.png) 
 
+
+6. Escape the Orcs
+
+![](./renders/potentials/competition/escapetheorcs.png) 
 
 
 ## Weekly Breakdowns
