@@ -55,6 +55,7 @@ The following features were implemented:
 - Microfacet distribution models 
 - Lights: diffuse area light, point lights, distant lights, spot lights 
 - Thin Lens Camera
+- Russian Roulette termination
 - and more!
 
 
